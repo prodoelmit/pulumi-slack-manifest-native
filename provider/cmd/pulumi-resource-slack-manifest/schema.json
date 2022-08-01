@@ -1,8 +1,8 @@
 {
-    "name": "xyz",
+    "name": "slack-manifest",
     "version": "0.0.1",
     "resources": {
-        "xyz:index:Random": {
+        "slack-manifest:index:Random": {
             "properties": {
                 "length": {
                     "type": "integer"
@@ -33,7 +33,7 @@
         },
         "go": {
             "generateResourceContainerTypes": true,
-            "importBasePath": "github.com/pulumi/pulumi-xyz/sdk/go/xyz"
+            "importBasePath": "github.com/prodoelmit/pulumi-slack-manifest-native/sdk/go/slack-manifest"
         },
         "nodejs": {
             "dependencies": {

@@ -17,11 +17,11 @@ package main
 
 import (
 	_ "embed"
-	"github.com/pulumi/pulumi-xyz/provider/pkg/provider"
-	"github.com/pulumi/pulumi-xyz/provider/pkg/version"
+	"github.com/prodoelmit/pulumi-slack-manifest-native/provider/pkg/provider"
+	"github.com/prodoelmit/pulumi-slack-manifest-native/provider/pkg/version"
 )
 
-var providerName = "xyz"
+var providerName = "slack-manifest"
 
 //go:embed schema-embed.json
 var pulumiSchema []byte
